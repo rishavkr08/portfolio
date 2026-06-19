@@ -70,6 +70,7 @@ export const aiTools = [
   },
 ];
 
+// Each company owns its projects so the UI can group them together.
 export const experience = [
   {
     role: 'Senior Software Engineer',
@@ -77,20 +78,44 @@ export const experience = [
     period: 'May 2025 – Present',
     points: [
       'Led SEO infrastructure improvements, driving sustained Top-3 rankings across key travel destinations.',
-      'Engineered a modular page-rendering framework for rule-based generation of scalable destination pages — cutting manual configuration overhead by 90%.',
       'Built a configurable multi-level discount management system with role-based controls and financial reconciliation.',
       'Designed and deployed Elasticsearch infrastructure for lakhs of products with zero-downtime index migrations.',
+    ],
+    projects: [
+      {
+        name: 'Destination Page Framework',
+        description:
+          'Modular, rule-based page-rendering framework that generates scalable destination pages and cut manual config by 90%.',
+        tech: ['Ruby on Rails', 'PostgreSQL', 'Elasticsearch'],
+        link: '#',
+      },
     ],
   },
   {
     role: 'Senior Software Engineer / Tech Lead',
-    company: 'BigBinary Solutions — incl. Apple Inc. (Senior Software Consultant)',
+    company: 'BigBinary Solutions',
+    note: 'incl. Apple Inc. — Senior Software Consultant',
     period: 'Apr 2021 – May 2025',
     points: [
-      'Consulted for Apple on Directory, Planning & Disclosure Central (Ruby on Rails, Stimulus.js, Postgres).',
-      'Implemented a major upgrade with data modelling, materialised views and complex queries — 30% faster page loads and report generation.',
+      'Consulted for Apple on Directory, Planning & Disclosure Central, implementing data modelling, materialised views and complex queries — 30% faster page loads.',
       'Partnered with the data-analytics team to revamp production datasets, cutting errors by 40% and lifting model accuracy by 30%.',
-      'Led Rails upgrades (Directory 4.2→5.1, Disclosure 6.1→7.1.3) and shipped LexcelPro, an async video-interview app, reducing upload time by 70%.',
+      'Led Rails upgrades (Directory 4.2→5.1, Disclosure 6.1→7.1.3) and mentored junior engineers.',
+    ],
+    projects: [
+      {
+        name: 'Disclosure Central (Apple)',
+        description:
+          'Enterprise disclosure & directory platform — data modelling, materialised views and complex queries that cut page loads by 30%.',
+        tech: ['Ruby on Rails', 'Stimulus.js', 'Postgres'],
+        link: '#',
+      },
+      {
+        name: 'LexcelPro',
+        description:
+          'Asynchronous video-interview app letting coaches build question sets and candidates record independently. Cut upload time by 70%.',
+        tech: ['React.js', 'Rails', 'Tailwind', 'AWS'],
+        link: '#',
+      },
     ],
   },
   {
@@ -98,9 +123,24 @@ export const experience = [
     company: 'Mindfire Solutions',
     period: 'Apr 2019 – Apr 2021',
     points: [
-      'Built The Amplify, a brand–influencer collaboration platform (React.js, Rails, TypeScript, MySQL, MongoDB, GCP).',
-      'Led neetoPlanner — a project-management app — with real-time group chat and rule-based automations.',
+      'Led teams as tech lead, planning feature rollouts and identifying use cases.',
       'Created reusable components that reduced code size by 20% and improved performance by 30%.',
+    ],
+    projects: [
+      {
+        name: 'The Amplify',
+        description:
+          'Platform connecting brands and influencers for impactful collaborations, with cross-platform analytics and admin impersonation.',
+        tech: ['React.js', 'Rails', 'TypeScript', 'GCP'],
+        link: '#',
+      },
+      {
+        name: 'neetoPlanner',
+        description:
+          'Project-management & planning app with real-time group chat and automations triggered on task/section changes.',
+        tech: ['React.js', 'Rails', 'Tailwind', 'Heroku'],
+        link: '#',
+      },
     ],
   },
   {
@@ -108,54 +148,18 @@ export const experience = [
     company: 'BringMyFood Pvt Ltd',
     period: 'Jan 2018 – Sep 2018',
     points: [
-      'Designed and built the BringMyFood Partner app (React Native) for restaurant order reception.',
+      'Learnt emerging technologies and offered technical direction and creative solutions.',
       'Streamlined order processing, resulting in 30% faster order reception and handling.',
     ],
-  },
-];
-
-export const projects = [
-  {
-    name: 'Disclosure Central (Apple)',
-    description:
-      'Enterprise disclosure & directory platform consulted on for Apple — data modelling, materialised views and complex queries that cut page loads by 30%.',
-    tech: ['Ruby on Rails', 'Stimulus.js', 'Postgres'],
-    link: '#',
-  },
-  {
-    name: 'LexcelPro',
-    description:
-      'Cutting-edge asynchronous video-interview app letting coaches build question sets and candidates record independently. Cut upload time by 70%.',
-    tech: ['React.js', 'Rails', 'Tailwind', 'AWS'],
-    link: '#',
-  },
-  {
-    name: 'neetoPlanner',
-    description:
-      'Powerful project-management & planning app with real-time group chat and automations triggered on task/section changes.',
-    tech: ['React.js', 'Rails', 'Tailwind', 'Heroku'],
-    link: '#',
-  },
-  {
-    name: 'The Amplify',
-    description:
-      'Platform connecting brands and influencers for impactful collaborations, with cross-platform analytics and admin impersonation.',
-    tech: ['React.js', 'Rails', 'TypeScript', 'GCP'],
-    link: '#',
-  },
-  {
-    name: 'Destination Page Framework',
-    description:
-      'Modular, rule-based page-rendering framework at Thrillophilia that generates scalable destination pages and cut manual config by 90%.',
-    tech: ['Ruby on Rails', 'PostgreSQL', 'Elasticsearch'],
-    link: '#',
-  },
-  {
-    name: 'BringMyFood Partner App',
-    description:
-      'Mobile app equipping restaurant partners with advanced order controls and monitoring — 30% faster order reception.',
-    tech: ['React Native', 'JavaScript'],
-    link: '#',
+    projects: [
+      {
+        name: 'BringMyFood Partner App',
+        description:
+          'Mobile app equipping restaurant partners with advanced order controls and monitoring — 30% faster order reception.',
+        tech: ['React Native', 'JavaScript'],
+        link: '#',
+      },
+    ],
   },
 ];
 
