@@ -12,7 +12,7 @@ export default function Contact() {
   return (
     <section id="contact" className="relative mx-auto max-w-4xl px-6 py-32 text-center">
       <Reveal>
-        <p className="font-mono text-sm text-glow-cyan/80">04 — Say hello</p>
+        <p className="font-mono text-sm text-glow-cyan/80">05 — Say hello</p>
         <h2 className="mx-auto mt-4 max-w-2xl text-balance text-4xl font-bold leading-tight tracking-tight sm:text-6xl">
           Let’s build something <span className="gradient-text">worth shipping</span>.
         </h2>

@@ -5,6 +5,7 @@ import Hero from './components/Hero';
 import About from './components/About';
 import Skills from './components/Skills';
 import Work from './components/Work';
+import Education from './components/Education';
 import Contact from './components/Contact';
 import { profile } from './data/content';
 
@@ -19,6 +20,7 @@ export default function App() {
         <About />
         <Skills />
         <Work />
+        <Education />
         <Contact />
       </main>
       <footer className="border-t border-white/5 px-6 py-8 text-center text-sm text-white/40">
