@@ -100,6 +100,7 @@ export const experience = [
       'Consulted for Apple on Directory, Planning & Disclosure Central, implementing data modelling, materialised views and complex queries — 30% faster page loads.',
       'Partnered with the data-analytics team to revamp production datasets, cutting errors by 40% and lifting model accuracy by 30%.',
       'Led Rails upgrades (Directory 4.2→5.1, Disclosure 6.1→7.1.3) and mentored junior engineers.',
+      'As team lead on neetoPlanner, planned feature rollouts and built reliable real-time group chat and task automations.',
     ],
     projects: [
       {
@@ -116,6 +117,13 @@ export const experience = [
         tech: ['React.js', 'Rails', 'Tailwind', 'AWS'],
         link: '#',
       },
+      {
+        name: 'neetoPlanner',
+        description:
+          'Project-management & planning app with real-time group chat and automations triggered on task/section changes.',
+        tech: ['React.js', 'Rails', 'Tailwind', 'Heroku'],
+        link: '#',
+      },
     ],
   },
   {
@@ -123,8 +131,8 @@ export const experience = [
     company: 'Mindfire Solutions',
     period: 'Apr 2019 – Apr 2021',
     points: [
-      'Led teams as tech lead, planning feature rollouts and identifying use cases.',
-      'Created reusable components that reduced code size by 20% and improved performance by 30%.',
+      'Built and maintained custom reusable components that reduced code size by 20% and optimised performance by 30%.',
+      'Created a Rails app to verify video authenticity and generate transcriptions via GCP, and integrated social platforms for cross-app analytics.',
     ],
     projects: [
       {
@@ -132,13 +140,6 @@ export const experience = [
         description:
           'Platform connecting brands and influencers for impactful collaborations, with cross-platform analytics and admin impersonation.',
         tech: ['React.js', 'Rails', 'TypeScript', 'GCP'],
-        link: '#',
-      },
-      {
-        name: 'neetoPlanner',
-        description:
-          'Project-management & planning app with real-time group chat and automations triggered on task/section changes.',
-        tech: ['React.js', 'Rails', 'Tailwind', 'Heroku'],
         link: '#',
       },
     ],
